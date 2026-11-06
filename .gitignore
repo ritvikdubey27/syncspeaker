@@ -1,0 +1,19 @@
+# dependencies & build output
+node_modules/
+dist/
+
+# secrets: host key and self-signed HTTPS certificate (generated on first run)
+.hostkey
+certs/
+
+# media: prepared tracks / library and temporary downloads (can be hundreds of MB)
+tracks/
+uploads/
+
+# yt-dlp binary (download it yourself, see README)
+bin/
+
+# misc
+.DS_Store
+*.log
+.devtest/
